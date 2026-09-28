@@ -1,5 +1,5 @@
 ---
-title: "Hello, conflicts"
+title: "Bye, conflicts"
 format: html
 editor: visual
 ---
