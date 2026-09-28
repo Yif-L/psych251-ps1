@@ -7,3 +7,17 @@ editor: visual
 ```{r}
 summary(cars)
 ```
+
+```{r}
+library(ggplot2)
+
+ggplot(cars, aes(x = speed, y = dist)) +
+  geom_point() +
+  labs(
+    title = "Cars Data",
+    x = "Speed (mph)",
+    y = "Stopping distance (ft)"
+  ) +
+  theme_minimal()+
+  theme(plot.title = element_text(hjust = 0.5))
+```
